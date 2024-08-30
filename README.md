@@ -21,9 +21,11 @@ This project implements a sentiment analysis model using Word2Vec embeddings and
 ## Data Preparation
 
 The dataset is loaded from a CSV file containing text samples and their corresponding sentiment labels. Initial data exploration and visualization are performed to understand the distribution of sentiment labels.
+```
 
 ```python
 df = pd.read_csv('/content/sample_data/all-data.csv', encoding='latin-1', names=['Sentiment', 'Text'])
+```
 
 ## Word2Vec Model
 
