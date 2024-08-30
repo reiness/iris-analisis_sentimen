@@ -2,13 +2,14 @@
 
 <h1 align="center">Analisis Sentimen</h1>
 
-```markdown
 # IRIS Sentiment Analysis Project
 
 ## Overview
+
 This project implements a sentiment analysis model using Word2Vec embeddings and LSTM neural networks. The model is trained on a dataset of text samples with sentiment labels (positive, negative, neutral) and can predict the sentiment of new text inputs.
 
 ## Table of Contents
+
 1. [Data Preparation](#data-preparation)
 2. [Word2Vec Model](#word2vec-model)
 3. [Text Preprocessing](#text-preprocessing)
@@ -21,7 +22,6 @@ This project implements a sentiment analysis model using Word2Vec embeddings and
 ## Data Preparation
 
 The dataset is loaded from a CSV file containing text samples and their corresponding sentiment labels. Initial data exploration and visualization are performed to understand the distribution of sentiment labels.
-```
 
 ```python
 df = pd.read_csv('/content/sample_data/all-data.csv', encoding='latin-1', names=['Sentiment', 'Text'])
