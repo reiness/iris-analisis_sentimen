@@ -124,8 +124,3 @@ Install dependencies using:
 ```
 pip install numpy pandas nltk gensim tensorflow keras scikit-learn matplotlib seaborn
 ```
-
----
-
-This project is part of the IRIS initiative.
-```
