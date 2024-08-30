@@ -2,8 +2,6 @@
 
 <h1 align="center">Analisis Sentimen</h1>
 
-Ah, saya mengerti. Anda ingin format yang bisa langsung di-copy paste ke GitHub tanpa perlu penyesuaian lagi. Berikut adalah versi README.md yang bisa langsung Anda gunakan di GitHub:
-
 ```markdown
 # IRIS Sentiment Analysis Project
 
