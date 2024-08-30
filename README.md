@@ -24,7 +24,6 @@ The dataset is loaded from a CSV file containing text samples and their correspo
 
 ```python
 df = pd.read_csv('/content/sample_data/all-data.csv', encoding='latin-1', names=['Sentiment', 'Text'])
-```
 
 ## Word2Vec Model
 
